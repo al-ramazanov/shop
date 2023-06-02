@@ -315,6 +315,7 @@ const headerCatalog = document.querySelector('.header-catalog')
 const catalog = document.querySelector('.header-catalog__wrapper')
 const mobCatalog = document.querySelector('.mobile-menu__btn.catalog')
 const header = document.querySelector('.header')
+const closeMobCatalog = document.querySelector('.header-catalog__back')
 mobCatalog.addEventListener('click', () => {
   mobCatalog.classList.toggle('active')
   if (mobCatalog.classList.contains('active')) {
@@ -328,5 +329,10 @@ mobCatalog.addEventListener('click', () => {
     catalog.classList.remove('active')
     document.body.style.overflow = null
   }
+})
 
+closeMobCatalog.addEventListener('click', () => {
+  headerCatalog.classList.remove('active')
+  catalog.classList.remove('active')
+  document.body.style.overflow = null
 })
