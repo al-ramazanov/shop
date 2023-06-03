@@ -283,6 +283,7 @@ function showTopMenu() {
     if (burger.classList.contains('open')) {
       topMenu.classList.add('active');
       document.body.style.overflow = 'hidden';
+      header.classList.remove('fixed')
     }
   })
   closeBurger.addEventListener('click', () => {
