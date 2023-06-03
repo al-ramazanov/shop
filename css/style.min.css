@@ -4804,14 +4804,10 @@ button {
     width: 45px;
   }
 
-  .header-middle__cart-btn .header-middle__cart-btn-div {
-    display: flex;
-    gap: 10px;
-  }
-
   .header-middle__cart-btn {
     max-width: 250px;
     height: 45px;
+    display: none;
   }
 
   .header-middle__action {
@@ -4855,6 +4851,12 @@ button {
 
   .header-catalog__promo {
     opacity: 0;
+  }
+
+  .mob__menu .header-middle__cart-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
   }
 
   .mob__menu {

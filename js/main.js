@@ -50,11 +50,11 @@ if (userNames) {
 let target = document.querySelector('._target')
 let moovEl = document.querySelector('._moove')
 let menu = moovEl.querySelector('.footer__menu')
-let mobMenu = document.querySelector('.mob__menu')
-let cart = document.querySelector('.header-middle__cart-btn')
+// let mobMenu = document.querySelector('.mob__menu')
+// let cart = document.querySelector('.header-middle__cart-btn')
 if (document.documentElement.clientWidth <= 992) {
   target.append(menu)
-  mobMenu.append(cart)
+  // mobMenu.append(cart)
 } else {
   moovEl.append(menu)
 }
