@@ -4123,6 +4123,7 @@ button {
   display: flex;
   gap: 28px;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .order-popup__form-btn {
