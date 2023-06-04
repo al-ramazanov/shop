@@ -711,7 +711,7 @@ button {
 
 .mob__menu .burger.active {
   display: flex;
-  flex: 0 1 45px;
+  flex: 0 0 45px;
 }
 
 .burger {
@@ -4857,12 +4857,14 @@ button {
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-right: 0;
   }
 
   .mob__menu {
     display: flex;
     margin-bottom: 28px;
     justify-content: space-between;
+    gap: 20px;
   }
 
   .burger {

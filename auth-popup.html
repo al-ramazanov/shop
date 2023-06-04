@@ -692,99 +692,29 @@
   </div>
 </header>
 <main class="main">
-  <div class="auth bookmarks">
-    <div class="container">
-      <div class="row">
-        <div class="auth__header">
-          <div class=" block-header">
-            <div class="auth__header-wrapper">
-              Закладки
-              <span>5 товаров</span>
-            </div>
-            <div class="auth__breadcrumbs breadcrumbs">
-              <a href="/">Главная</a>
-              -
-              <a href="#">Личный кабинет</a>
-              -
-              <a href="#"> Мои закладки</a>
-            </div>
-          </div>
+  <div class="auth-popup popup active">
+  <div class="auth-popup__content popup__content">
+    <button class="popup-close">
+      <img src="images/close-popup.svg" alt="закрыть">
+    </button>
+    <form class="auth-content__form">
+      <h2 class="auth-content__title">Авторизация</h2>
+      <label class="auth-content__form-label">
+        <p>E-mail</p>
+        <input type="email" class="auth-content__form-input" placeholder="mail@mail.ru">
+      </label>
+      <label class="auth-content__form-label">
+        <div class="auth-content__form-label-header">
+          Пароль
+          <button class="">Забыли пароль?</button>
         </div>
-      </div>
-      <div class="row mb-80">
-        <div class="col-lg-3">
-          <nav class="auth-menu">
-            <a href="#" class="auth-menu__link">Вход</a>
-            <a href="#" class="auth-menu__link">Регистрация</a>
-            <a href="#" class="auth-menu__link">Вход для партнеров</a>
-            <a href="#" class="auth-menu__link">Регистрация для партнеров</a>
-            <a href="#" class="auth-menu__link">Забыли пароль?</a>
-            <a href="#" class="auth-menu__link">Забыли пароль?</a>
-            <a href="#" class="auth-menu__link active">Закладки</a>
-            <a href="#" class="auth-menu__link">Сравнение товаров</a>
-          </nav>
-        </div>
-        <div class="col-lg-9">
-          <div class="user-content bookmarks-content">
-
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Изображение</h4>
-              <div class="bookmarks-content__column-item">
-                <img src="images/bookmarks/product-thumb.jpg" alt="Apple Watch Series 7 Silver">
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Название товара</h4>
-              <div class="bookmarks-content__column-item">
-                <p class="bookmarks-content__item-text">
-                  Apple Watch Series<br>7 Silver
-                </p>
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Код товара</h4>
-              <div class="bookmarks-content__column-item">
-                <p class="bookmarks-content__item-text">
-                  987987987987987
-                </p>
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Наличие</h4>
-              <div class="bookmarks-content__column-item">
-                <p class="bookmarks-content__item-text">
-                  в наличии
-                </p>
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Цена за единицу</h4>
-              <div class="bookmarks-content__column-item">
-                <p class="bookmarks-content__item-text">
-                  8 999 ₽
-                </p>
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Действие</h4>
-              <div class="bookmarks-content__column-item">
-                <div class="bookmarks-content__item-action">
-                  <button class="bookmarks-content__item-btn buy">
-                    <img src="images/cart-icon.png" alt="корзина">
-                    Купить
-                  </button>
-                  <button class="bookmarks-content__item-btn delete">
-                    <img src="images/bookmarks/delete.png" alt="удалить">
-                  </button>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
+        <input type="password" class="auth-content__form-input">
+      </label>
+      <button class="auth-content__form-btn auth-content__btn">Вход</button>
+      <button class="auth-content__reg-btn auth-content__btn">Регистрация</button>
+    </form>
   </div>
+</div>
 </main>
 <footer class="footer">
   <div class="mobile-menu">

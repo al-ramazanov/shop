@@ -692,99 +692,58 @@
   </div>
 </header>
 <main class="main">
-  <div class="auth bookmarks">
-    <div class="container">
-      <div class="row">
-        <div class="auth__header">
-          <div class=" block-header">
-            <div class="auth__header-wrapper">
-              Закладки
-              <span>5 товаров</span>
-            </div>
-            <div class="auth__breadcrumbs breadcrumbs">
-              <a href="/">Главная</a>
-              -
-              <a href="#">Личный кабинет</a>
-              -
-              <a href="#"> Мои закладки</a>
-            </div>
+  <div class="reg-popup popup">
+  <div class="reg-popup__content popup__content">
+    <button class="popup-close">
+      <img src="images/close-popup.svg" alt="закрыть">
+    </button>
+    <form class="reg-popup__form">
+      <h2 class="reg-popup__form-title">Регистрация</h2>
+      <div class="reg-popup__form-content">
+        <div class="reg-popup__form-wrapper">
+          <label class="reg-popup__form-label reg-popup__item">
+            <p>Имя</p>
+            <input type="text" placeholder="Андрей">
+          </label>
+          <label class="reg-popup__form-label reg-popup__item">
+            <p>Фамилия</p>
+            <input type="text" placeholder="Филатов">
+          </label>
+          <label class="reg-popup__form-label reg-popup__item">
+            <p>E-mail </p>
+            <input type="email" placeholder="mail@mail.ru">
+          </label>
+          <label class="reg-popup__form-label reg-popup__item">
+            <p>Телефон</p>
+            <input type="tel" placeholder="+7 (____)____-___-___">
+          </label>
+        </div>
+        <div class="reg-popup__form-wrapper">
+          <label class="reg-popup__form-label reg-popup__item">
+            <p>Введите пароль</p>
+            <input type="password" placeholder="Минимум - 8 символов">
+          </label>
+          <label class="reg-popup__form-label reg-popup__item">
+            <p>Повторите пароль</p>
+            <input type="password" placeholder="Минимум - 8 символов">
+          </label>
+          <label class="reg-popup__form-label reg-popup__item checkbox">
+            <input type="checkbox" name="рассылка">
+            Получать новости на E-Mail
+          </label>
+          <label class="reg-popup__form-label reg-popup__item checkbox">
+            <input type="checkbox" name="Политика безопасности">
+            Я прочитал и согласен с условиями Политика безопасности
+          </label>
+          <button class="reg-popup__btn reg-popup__item">Регистрация</button>
+          <div class="reg-popup__item-link">
+            Если у Вас уже есть учетная запись - <a href="#" target="_blank">Авторизуйтесь</a>
           </div>
         </div>
       </div>
-      <div class="row mb-80">
-        <div class="col-lg-3">
-          <nav class="auth-menu">
-            <a href="#" class="auth-menu__link">Вход</a>
-            <a href="#" class="auth-menu__link">Регистрация</a>
-            <a href="#" class="auth-menu__link">Вход для партнеров</a>
-            <a href="#" class="auth-menu__link">Регистрация для партнеров</a>
-            <a href="#" class="auth-menu__link">Забыли пароль?</a>
-            <a href="#" class="auth-menu__link">Забыли пароль?</a>
-            <a href="#" class="auth-menu__link active">Закладки</a>
-            <a href="#" class="auth-menu__link">Сравнение товаров</a>
-          </nav>
-        </div>
-        <div class="col-lg-9">
-          <div class="user-content bookmarks-content">
-
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Изображение</h4>
-              <div class="bookmarks-content__column-item">
-                <img src="images/bookmarks/product-thumb.jpg" alt="Apple Watch Series 7 Silver">
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Название товара</h4>
-              <div class="bookmarks-content__column-item">
-                <p class="bookmarks-content__item-text">
-                  Apple Watch Series<br>7 Silver
-                </p>
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Код товара</h4>
-              <div class="bookmarks-content__column-item">
-                <p class="bookmarks-content__item-text">
-                  987987987987987
-                </p>
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Наличие</h4>
-              <div class="bookmarks-content__column-item">
-                <p class="bookmarks-content__item-text">
-                  в наличии
-                </p>
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Цена за единицу</h4>
-              <div class="bookmarks-content__column-item">
-                <p class="bookmarks-content__item-text">
-                  8 999 ₽
-                </p>
-              </div>
-            </div>
-            <div class="bookmarks-content__column">
-              <h4 class="bookmarks-content__header">Действие</h4>
-              <div class="bookmarks-content__column-item">
-                <div class="bookmarks-content__item-action">
-                  <button class="bookmarks-content__item-btn buy">
-                    <img src="images/cart-icon.png" alt="корзина">
-                    Купить
-                  </button>
-                  <button class="bookmarks-content__item-btn delete">
-                    <img src="images/bookmarks/delete.png" alt="удалить">
-                  </button>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
+    </form>
   </div>
+</div>
 </main>
 <footer class="footer">
   <div class="mobile-menu">
